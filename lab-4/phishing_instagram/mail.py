@@ -3,12 +3,11 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 
-# Email server details (for example, Gmail's SMTP)
 smtp_server = "smtp.gmail.com"
 smtp_port = 587
-sender_email = "kmoondar@gmail.com"  # Replace with your email address
-sender_password = "zbwm eeba ulae vlhv"     # Replace with your email password or app-specific password
-receiver_email = "kazybekov_a@auca.kg"  # Replace with the recipient's email
+sender_email = "kmoondar@gmail.com"  
+sender_password = ""     # Hiddent for security purposes
+receiver_email = "kazybekov_a@auca.kg" 
 
 
 # HTML email content
